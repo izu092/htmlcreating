@@ -1,60 +1,64 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>WELCOME TO HTML</title>
-        <link rel="stylesheet" href="style1.css">
+<html lang="en">
 
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="logo.png">
+    <title>Login Page | Sebamian</title>
+</head>
 
+<body>
 
-    <body>
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Create Account</h1>
+                <div class="social-icons">
+                </div>
+                <span>or use your email for registeration</span>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+              <a class="btn" href="index20.html">
+                Sign Up
+              </a>
 
-        <h1>WELCOME TO RYAN RESTAURANT</h1>
-        
-        <h3>There is no love sincerer than the love of food.</h3>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form>
+                <h1>Sign In</h1>
+                <div class="social-icons">
+                </div>
+                <span>or use your email password</span>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <a href="#">Forgot Your Password?</a>
+              <a class="btn" href="index1234.html">
+                Sign In
+              </a>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Welcome Back!</h1>
+                    <p>Enter your personal details to use all of site features</p>
+                    <button class="btn" id="login">Sign In</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Hello, Welcome to Sebamian!</h1>
+                    <p>Register with your personal details to use all of site features</p>
+                    <button class="btn" id="register">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
-        <h2>Register Here!!</h2>
-    
-        <label for="fname">First Name</label>
-        <br>
-        <input type="text" id="fname">
-        <br>
-        <label for="Lname">Last Name</label>
-        <br>
-        
+    <script src="script1.js"></script>
+</body>
 
-        <input type="text" id="Lname">
-        <br>
-        
-        <label for="address">Address</label>
-        <br>
-        
-        <input type="text" id="address">
-        <br>
-        
-        <label for="username">Usernmae</label>
-        <br>
-        
-        <input type="text" id="username">
-        <br>
-        
-        <label for="password">Password</label>
-        <br>
-        <input type="password" id="password">
-        <br>
-        <br>
-
-        <button class="btn" onclick="alert ('You Successfully Registered')" >SUBMIT</button>
-        <button class="btn2" onclick="document.location='login.html'" >LOGIN</button>
-     
-
-
-
-        <br>
-        <br>
-
-
-        <a href="front.html">HomePage</a>
-
-    </body>
 </html>
